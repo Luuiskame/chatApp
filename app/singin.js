@@ -3,7 +3,7 @@ import React from 'react'
 
 const Singin = ()=>{
     return(
-        <View>
+        <View className="pt-20">
             <Text>sing in</Text>
         </View>
     )

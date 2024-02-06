@@ -1,11 +1,10 @@
 import {View, Text} from 'react-native'
+import {Stack} from 'expo-router'
 import React from 'react'
 
 const _layout = ()=>{
     return(
-        <View>
-            <Text>layout from app</Text>
-        </View>
+        <Stack/>
     )
 }
 
