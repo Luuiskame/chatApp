@@ -17,6 +17,7 @@ import {
   import { useRef, useState } from "react";
   import Loading from "../components/Loading";
   //image
+  import CustomKeyboardView from "../components/CustomKeyboardView";
   const registerImage = require("../assets/images/register-chatapp.png");
   
   const Singup = () => {
@@ -33,7 +34,7 @@ import {
     };
   
     return (
-      <View className="flex-1">
+      <CustomKeyboardView>
         <StatusBar className="dark" />
         <View style={{ paddingTop: hp(7) }} className="flex-1 gap-12">
           <View className="items-center">
@@ -132,7 +133,7 @@ import {
             </View>
           </View>
         </View>
-      </View>
+      </CustomKeyboardView>
     );
   };
   
